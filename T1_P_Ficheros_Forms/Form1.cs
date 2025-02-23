@@ -150,5 +150,15 @@ namespace T1_P_Ficheros_Forms
 
 
         }
+
+        private void btnMostrarArchivos_Click(object sender, EventArgs e)
+        {
+            string[] archivosEnDirectorio = Directory.GetFiles(".");
+
+            foreach(string archivo in archivosEnDirectorio)
+            {
+                txtArchivosEnDirectorio.Text += Path.GetFileName(archivo) + "\n";
+            }
+        }
     }
 }

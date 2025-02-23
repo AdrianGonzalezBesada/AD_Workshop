@@ -41,11 +41,20 @@
             this.btnComprobarDirectorio = new System.Windows.Forms.Button();
             this.btnMoverDirectorio = new System.Windows.Forms.Button();
             this.txtMoverDirectorio = new System.Windows.Forms.TextBox();
+            this.btnMostrarArchivos = new System.Windows.Forms.Button();
+            this.txtArchivosEnDirectorio = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtInsertarTexto
             // 
-            this.txtInsertarTexto.Location = new System.Drawing.Point(12, 12);
+            this.txtInsertarTexto.Location = new System.Drawing.Point(18, 30);
             this.txtInsertarTexto.Name = "txtInsertarTexto";
             this.txtInsertarTexto.Size = new System.Drawing.Size(219, 22);
             this.txtInsertarTexto.TabIndex = 0;
@@ -155,11 +164,101 @@
             this.txtMoverDirectorio.Size = new System.Drawing.Size(177, 22);
             this.txtMoverDirectorio.TabIndex = 11;
             // 
+            // btnMostrarArchivos
+            // 
+            this.btnMostrarArchivos.Location = new System.Drawing.Point(543, 401);
+            this.btnMostrarArchivos.Name = "btnMostrarArchivos";
+            this.btnMostrarArchivos.Size = new System.Drawing.Size(123, 23);
+            this.btnMostrarArchivos.TabIndex = 14;
+            this.btnMostrarArchivos.Text = "Mostrar Archivos";
+            this.btnMostrarArchivos.UseVisualStyleBackColor = true;
+            this.btnMostrarArchivos.Click += new System.EventHandler(this.btnMostrarArchivos_Click);
+            // 
+            // txtArchivosEnDirectorio
+            // 
+            this.txtArchivosEnDirectorio.Location = new System.Drawing.Point(470, 262);
+            this.txtArchivosEnDirectorio.Multiline = true;
+            this.txtArchivosEnDirectorio.Name = "txtArchivosEnDirectorio";
+            this.txtArchivosEnDirectorio.Size = new System.Drawing.Size(261, 133);
+            this.txtArchivosEnDirectorio.TabIndex = 15;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(63, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(117, 16);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Escribir en archivo";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(312, 135);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(81, 16);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "Leer archivo";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(235, 174);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(57, 16);
+            this.label3.TabIndex = 18;
+            this.label3.Text = "Apellido";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(53, 174);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(56, 16);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Nombre";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(516, 243);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(175, 16);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Archivos del directorio dado";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(407, 174);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(115, 16);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "Nombre compelto";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(87, 292);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(252, 16);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "Carear archivo en la ruta dada, y moverlo";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtArchivosEnDirectorio);
+            this.Controls.Add(this.btnMostrarArchivos);
             this.Controls.Add(this.btnMoverDirectorio);
             this.Controls.Add(this.txtMoverDirectorio);
             this.Controls.Add(this.btnComprobarDirectorio);
@@ -195,6 +294,15 @@
         private System.Windows.Forms.Button btnComprobarDirectorio;
         private System.Windows.Forms.Button btnMoverDirectorio;
         private System.Windows.Forms.TextBox txtMoverDirectorio;
+        private System.Windows.Forms.Button btnMostrarArchivos;
+        private System.Windows.Forms.TextBox txtArchivosEnDirectorio;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
 
