@@ -1,0 +1,2 @@
+System.Windows.Forms.TextBox, Text: Armando System.Windows.Forms.TextBox, Text: Paredes
+Armando Paredes

@@ -1,0 +1,14 @@
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\bin\Debug\net8.0\T1_P_Ficheros.exe
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\bin\Debug\net8.0\T1_P_Ficheros.deps.json
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\bin\Debug\net8.0\T1_P_Ficheros.runtimeconfig.json
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\bin\Debug\net8.0\T1_P_Ficheros.dll
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\bin\Debug\net8.0\T1_P_Ficheros.pdb
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\obj\Debug\net8.0\T1_P_Ficheros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\obj\Debug\net8.0\T1_P_Ficheros.AssemblyInfoInputs.cache
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\obj\Debug\net8.0\T1_P_Ficheros.AssemblyInfo.cs
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\obj\Debug\net8.0\T1_P_Ficheros.csproj.CoreCompileInputs.cache
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\obj\Debug\net8.0\T1_P_Ficheros.dll
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\obj\Debug\net8.0\refint\T1_P_Ficheros.dll
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\obj\Debug\net8.0\T1_P_Ficheros.pdb
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\obj\Debug\net8.0\T1_P_Ficheros.genruntimeconfig.cache
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros\obj\Debug\net8.0\ref\T1_P_Ficheros.dll

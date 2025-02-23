@@ -1,0 +1,10 @@
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros_Forms\bin\Debug\T1_P_Ficheros_Forms.exe.config
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros_Forms\bin\Debug\T1_P_Ficheros_Forms.exe
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros_Forms\bin\Debug\T1_P_Ficheros_Forms.pdb
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros_Forms\obj\Debug\T1_P_Ficheros_Forms.csproj.AssemblyReference.cache
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros_Forms\obj\Debug\T1_P_Ficheros_Forms.Form1.resources
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros_Forms\obj\Debug\T1_P_Ficheros_Forms.Properties.Resources.resources
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros_Forms\obj\Debug\T1_P_Ficheros_Forms.csproj.GenerateResource.cache
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros_Forms\obj\Debug\T1_P_Ficheros_Forms.csproj.CoreCompileInputs.cache
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros_Forms\obj\Debug\T1_P_Ficheros_Forms.exe
+C:\Users\Adrián\Documents\AD_Workshop\T1_P_Ficheros_Forms\obj\Debug\T1_P_Ficheros_Forms.pdb

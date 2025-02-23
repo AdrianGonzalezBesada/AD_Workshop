@@ -1,0 +1,3 @@
+Some log
+Another log
+Another another log
