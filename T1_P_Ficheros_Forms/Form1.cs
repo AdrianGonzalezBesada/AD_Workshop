@@ -24,6 +24,10 @@ namespace T1_P_Ficheros_Forms
         {
             StreamWriter fichero;
 
+            // Crea o sobreescribe el fichero en caso de existir
+            //fichero = File.CreateText("log.txt");
+
+            // Continua escribiendo o crea el fichero en caso de no existir
             fichero = File.AppendText("log.txt");
 
             fichero.WriteLine(txtInsertarTexto.Text);

@@ -1,0 +1,10 @@
+C:\Users\Adrián\Documents\AD_Workshop\GonzalezBesadaAdrianTarea1\bin\Debug\GonzalezBesadaAdrianTarea1.exe.config
+C:\Users\Adrián\Documents\AD_Workshop\GonzalezBesadaAdrianTarea1\bin\Debug\GonzalezBesadaAdrianTarea1.exe
+C:\Users\Adrián\Documents\AD_Workshop\GonzalezBesadaAdrianTarea1\bin\Debug\GonzalezBesadaAdrianTarea1.pdb
+C:\Users\Adrián\Documents\AD_Workshop\GonzalezBesadaAdrianTarea1\obj\Debug\GonzalezBesadaAdrianTarea1.csproj.AssemblyReference.cache
+C:\Users\Adrián\Documents\AD_Workshop\GonzalezBesadaAdrianTarea1\obj\Debug\GonzalezBesadaAdrianTarea1.Form1.resources
+C:\Users\Adrián\Documents\AD_Workshop\GonzalezBesadaAdrianTarea1\obj\Debug\GonzalezBesadaAdrianTarea1.Properties.Resources.resources
+C:\Users\Adrián\Documents\AD_Workshop\GonzalezBesadaAdrianTarea1\obj\Debug\GonzalezBesadaAdrianTarea1.csproj.GenerateResource.cache
+C:\Users\Adrián\Documents\AD_Workshop\GonzalezBesadaAdrianTarea1\obj\Debug\GonzalezBesadaAdrianTarea1.csproj.CoreCompileInputs.cache
+C:\Users\Adrián\Documents\AD_Workshop\GonzalezBesadaAdrianTarea1\obj\Debug\GonzalezBesadaAdrianTarea1.exe
+C:\Users\Adrián\Documents\AD_Workshop\GonzalezBesadaAdrianTarea1\obj\Debug\GonzalezBesadaAdrianTarea1.pdb
