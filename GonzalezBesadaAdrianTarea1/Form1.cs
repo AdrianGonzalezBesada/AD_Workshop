@@ -187,6 +187,8 @@ namespace GonzalezBesadaAdrianTarea1
                 CrearEstructura("D:", _estructuraDirectorios1, _estructuraFicheros1);
 
                 CrearEstructura("E:", _estructuraDirectorios2, _estructuraFicheros2);
+
+                MessageBox.Show("Estructura creada");
             }
             else
             {
@@ -196,6 +198,7 @@ namespace GonzalezBesadaAdrianTarea1
                 CrearEstructura(discoLocal, _estructuraDirectorios1, _estructuraFicheros1);
                 CrearEstructura(discoLocal, _estructuraDirectorios2, _estructuraFicheros2);
 
+                MessageBox.Show("Estructura creada");
             }
         }
 
