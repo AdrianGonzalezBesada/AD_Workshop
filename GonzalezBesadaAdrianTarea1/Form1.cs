@@ -22,6 +22,22 @@ namespace GonzalezBesadaAdrianTarea1
 
         string _ficheroAModificar = string.Empty;
 
+        string _estructuraDirectorios1 = @"\CARPETA_MONTECASTELO\DAM\ACCESO_DATOS";
+
+        List<string> _estructuraFicheros1 = new List<string>()
+        {
+            "FICHERO1.TXT",
+            "FICHERO2.TXT"
+        };
+
+        string _estructuraDirectorios2 = @"\CARPETA_MONTECASTELO\DAM\PROYECTO";
+
+        List<string> _estructuraFicheros2 = new List<string>()
+        {
+            "ENTREGA1.TXT",
+            "ENTREGA FINAL.TXT"
+        };
+
         // IO
         private void EscribirFichero(string ruta, string textoAGuardar, bool isSobreescribir)
         {
@@ -40,18 +56,22 @@ namespace GonzalezBesadaAdrianTarea1
 
             ficheroAGuardar.Close();
 
-            txtFicheroAGuardar.Clear();
 
-            LeerFichero(ruta);
         }
         private void LeerFichero(string ruta)
         {
-            using (StreamReader ficheroALeer = File.OpenText(ruta))
+            if (File.Exists(ruta))
             {
-                txtFicheroALeer.Text = ficheroALeer.ReadToEnd();
-                ficheroALeer.Close();
+                using (StreamReader ficheroALeer = File.OpenText(ruta))
+                {
+                    txtFicheroALeer.Text = ficheroALeer.ReadToEnd();
+                    ficheroALeer.Close();
+                }
             }
-
+            else
+            {
+                MessageBox.Show("El fichero no existe");
+            }
         }
 
         private OpenFileDialog SeleccionarArchivo(string filter)
@@ -60,7 +80,7 @@ namespace GonzalezBesadaAdrianTarea1
             {
                 openFile.InitialDirectory = @":\";
 
-                if(!string.IsNullOrEmpty(filter))
+                if (!string.IsNullOrEmpty(filter))
                 {
                     openFile.Filter = filter;
                 }
@@ -92,6 +112,9 @@ namespace GonzalezBesadaAdrianTarea1
             string textoAGuardar = txtFicheroAGuardar.Text;
 
             EscribirFichero(_ficheroPredeterminado, textoAGuardar, false);
+            txtFicheroAGuardar.Clear();
+
+            LeerFichero(_ficheroPredeterminado);
         }
 
         private void btnLeerFichero_Click(object sender, EventArgs e)
@@ -116,7 +139,7 @@ namespace GonzalezBesadaAdrianTarea1
                     txtFicheroAModificar.Text = fichero.ReadToEnd();
                 }
             }
-            
+
         }
 
         private void btnModificarFichero_Click(object sender, EventArgs e)
@@ -142,7 +165,52 @@ namespace GonzalezBesadaAdrianTarea1
                     string nuevoNombre = nombreArchivoSinExtension + "_copia" + extension;
 
                     EscribirFichero(Path.Combine(directorioDestino.SelectedPath, nuevoNombre), ficheroOriginal.ReadToEnd(), true);
-                    
+
+                    MessageBox.Show("Archivo copiado");
+                }
+            }
+        }
+
+        private void btnCargarEstructura_Click(object sender, EventArgs e)
+        {
+            bool existDDrive = false;
+            bool existEDrive = false;
+
+            if (Directory.Exists(@"D:\"))
+                existDDrive = true;
+
+            if (Directory.Exists(@"E:\"))
+                existEDrive = true;
+
+            if (existDDrive && existEDrive)
+            {
+                CrearEstructura("D:", _estructuraDirectorios1, _estructuraFicheros1);
+
+                CrearEstructura("E:", _estructuraDirectorios2, _estructuraFicheros2);
+            }
+            else
+            {
+                string discoLocal = Path.GetPathRoot(Environment.GetFolderPath(Environment.SpecialFolder.System));
+                discoLocal = discoLocal.Substring(0, 2);
+
+                CrearEstructura(discoLocal, _estructuraDirectorios1, _estructuraFicheros1);
+                CrearEstructura(discoLocal, _estructuraDirectorios2, _estructuraFicheros2);
+
+            }
+        }
+
+        private void CrearEstructura(string disco, string directorios, List<string> ficheros)
+        {
+            string estructuraDirectorios = disco + directorios;
+
+            if (!Directory.Exists(estructuraDirectorios))
+            {
+                Directory.CreateDirectory(estructuraDirectorios);
+
+                foreach (string fichero in ficheros)
+                {
+
+                    EscribirFichero(Path.Combine(estructuraDirectorios, fichero), "", true);
                 }
             }
         }

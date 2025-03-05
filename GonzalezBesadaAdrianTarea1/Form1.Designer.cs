@@ -40,8 +40,12 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCopiarArchivoA = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnCargarEstructura = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnGuardarEnFichero
@@ -160,11 +164,40 @@
             this.btnCopiarArchivoA.UseVisualStyleBackColor = true;
             this.btnCopiarArchivoA.Click += new System.EventHandler(this.btnCopiarArchivoA_Click);
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.btnCargarEstructura);
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Location = new System.Drawing.Point(266, 260);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(441, 136);
+            this.panel3.TabIndex = 11;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(208, 107);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(69, 16);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Ejercicio 3";
+            // 
+            // btnCargarEstructura
+            // 
+            this.btnCargarEstructura.Location = new System.Drawing.Point(163, 53);
+            this.btnCargarEstructura.Name = "btnCargarEstructura";
+            this.btnCargarEstructura.Size = new System.Drawing.Size(150, 26);
+            this.btnCargarEstructura.TabIndex = 1;
+            this.btnCargarEstructura.Text = "Cargar estructura";
+            this.btnCargarEstructura.UseVisualStyleBackColor = true;
+            this.btnCargarEstructura.Click += new System.EventHandler(this.btnCargarEstructura_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(759, 649);
+            this.ClientSize = new System.Drawing.Size(759, 429);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -173,6 +206,8 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -191,6 +226,9 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnCopiarArchivoA;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button btnCargarEstructura;
+        private System.Windows.Forms.Label label3;
     }
 }
 

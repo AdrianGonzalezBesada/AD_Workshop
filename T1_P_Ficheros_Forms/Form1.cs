@@ -104,10 +104,12 @@ namespace T1_P_Ficheros_Forms
 
         }
 
+        // Existe el directorio?
         public bool existFile(string path)
         {
             return Directory.Exists(path);
         }
+
 
         private void btnComprobarDirectorio_Click(object sender, EventArgs e)
         {
@@ -123,8 +125,6 @@ namespace T1_P_Ficheros_Forms
                 // Toggle para la demostración
                 directorio.Delete();
             }
-
-
         }
 
         private void btnMoverDirectorio_Click(object sender, EventArgs e)
