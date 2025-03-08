@@ -21,9 +21,6 @@ namespace T3_P_SQL_Server
         public Form1()
         {
             InitializeComponent();
-
-
-
         }
 
         private void btnBDConnection_Click(object sender, EventArgs e)
@@ -40,8 +37,6 @@ namespace T3_P_SQL_Server
 
 
             conexion.Open();
-
-
         }
 
         private void btnBDDisconnection_Click(object sender, EventArgs e)
