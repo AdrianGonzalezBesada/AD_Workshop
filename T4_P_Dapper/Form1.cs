@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Dapper;
-
+using Dapper.Contrib.Extensions;
 
 namespace T4_P_Dapper
 {
@@ -24,27 +24,20 @@ namespace T4_P_Dapper
             CargarComboEquipo();
         }
 
+        #region DB
         private List<Equipo> GetEquipos()
         {
-            string consulta = "SELECT * FROM Equipos";
-
             using (SqlConnection db = new SqlConnection(_stringConnection))
             {
-                List<Equipo> listaEquipos = (List<Equipo>)db.Query<Equipo>(consulta);
-
-                return listaEquipos;
+                return (List<Equipo>)db.GetAll<Equipo>();
             }
         }
 
         private Equipo GetEquipoById(string codigoEquipo)
         {
-            string consulta = $"SELECT TOP 1 * FROM Equipos WHERE Codigo = '{codigoEquipo}'";
-
             using (SqlConnection db = new SqlConnection(_stringConnection))
             {
-                Equipo equipo = (Equipo)db.Query<Equipo>(consulta).FirstOrDefault();
-
-                return equipo;
+                return db.Get<Equipo>(codigoEquipo);
             }
         }
 
@@ -62,93 +55,45 @@ namespace T4_P_Dapper
 
         private void InsertEquipo(Equipo equipo)
         {
-            string consulta = $"INSERT INTO Equipos VALUES (" +
-                $"'{equipo.Codigo}'," +
-                $"'{equipo.Nombre}'," +
-                $"'{equipo.Pais}'," +
-                $"{equipo.Goles}," +
-                $"{equipo.Puntos}," +
-                $"'{equipo.PJ}'," +
-                $"{equipo.PG}," +
-                $"{equipo.PE}," +
-                $"{equipo.PP}," +
-                $"'{equipo.Estadio}'," +
-                $"'{equipo.Ciudad}'" +
-                $")";
-
             using (SqlConnection db = new SqlConnection(_stringConnection))
             {
-                db.Execute(consulta);
+                db.Insert(equipo);
             }
         }
 
         private void InsertJugador(Futbolista futbolista)
         {
-            string consulta = "INSERT INTO Futbolistas (Codigo,Nombre,CodigoEquipo,Posicion,Edad,Goles,TA,TR,Minutos,PrecioMercado,Dorsal,Peso) VALUES (" +
-                $"'{futbolista.Codigo}'," +
-                $"'{futbolista.Nombre}'," +
-                $"'{futbolista.CodigoEquipo}'," +
-                $"'{futbolista.Posicion}'," +
-                $"{futbolista.Edad}," +
-                $"{futbolista.Goles}," +
-                $"{futbolista.TA}," +
-                $"{futbolista.TR}," +
-                $"{futbolista.Minutos}," +
-                $"'{futbolista.PrecioMercado}'," +
-                $"{futbolista.Dorsal}," +
-                $"{futbolista.Peso}" +
-                ")";
-
             using (SqlConnection db = new SqlConnection(_stringConnection))
             {
-                db.Execute(consulta);
+                db.Insert(futbolista);
             }
         }
 
         private void UpdateJugador(Futbolista futbolista)
         {
-            if (!string.IsNullOrEmpty(futbolista.Codigo))
+            using (SqlConnection db = new SqlConnection(_stringConnection))
             {
-                string sufijo = ", ";
-
-                string consulta = "UPDATE Futbolistas SET ";
-
-                if (!string.IsNullOrEmpty(futbolista.Nombre))
-                    consulta += $"Nombre = '{futbolista.Nombre}', ";
-
-                if (!string.IsNullOrEmpty(futbolista.CodigoEquipo))
-                    consulta += $"CodigoEquipo = '{futbolista.CodigoEquipo}', ";
-
-                if (consulta.EndsWith(sufijo))
-                    consulta = consulta.Substring(0, consulta.Length - sufijo.Length);
-
-                consulta += $" WHERE Codigo = '{futbolista.Codigo}'";
-
-                if (!consulta.Contains("UPDATE Futbolistas SET WHERE"))
-                {
-
-                    using (SqlConnection db = new SqlConnection(_stringConnection))
-                    {
-                        db.Execute(consulta);
-                    }
-
-                }
+                db.Update(futbolista);
             }
         }
 
         private void DeleteJugador(Futbolista futbolista)
         {
-            string consulta = $"DELETE FROM Futbolistas WHERE Codigo = @Codigo";
-
-            if (!string.IsNullOrEmpty(futbolista.Codigo))
+            using (SqlConnection db = new SqlConnection(_stringConnection))
             {
-
-                using (SqlConnection db = new SqlConnection(_stringConnection))
-                {
-                    db.Execute(consulta, futbolista);
-                }
+                db.Delete(futbolista);
             }
         }
+
+        private void DeleteAllJugadores()
+        {
+            using (SqlConnection db = new SqlConnection(_stringConnection))
+            {
+                db.DeleteAll<Futbolista>();
+            }
+        }
+
+        #endregion
 
         private void CargarComboEquipo()
         {
@@ -160,6 +105,7 @@ namespace T4_P_Dapper
             comboFEquipoDetail.ValueMember = "Codigo";
         }
 
+        #region Listeners
         private void btnBuscarEquipos_Click(object sender, EventArgs e)
         {
             lstbxEquipos.DataSource = GetEquipos();
@@ -228,12 +174,12 @@ namespace T4_P_Dapper
             txtFNombreDetail.Text = jugadorSeleccionado.Nombre;
 
             comboFEquipoDetail.SelectedValue = jugadorSeleccionado.CodigoEquipo;
-
-            //foreach (Equipo equipo in comboFEquipoDetail.Items)
-            //{
-            //    if(equipo.Codigo == jugadorSeleccionado.CodigoEquipo)
-            //        comboFEquipoDetail.SelectedItem = equipo;
-            //}
         }
+
+
+
+
+
+        #endregion
     }
 }
