@@ -47,10 +47,10 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.lstvwResultadoConsulta = new System.Windows.Forms.ListView();
+            this.comboConsultas = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnEjecutarConsulta = new System.Windows.Forms.Button();
-            this.comboConsultas = new System.Windows.Forms.ComboBox();
-            this.lstvwResultadoConsulta = new System.Windows.Forms.ListView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -246,6 +246,25 @@
             this.panel5.Size = new System.Drawing.Size(497, 401);
             this.panel5.TabIndex = 6;
             // 
+            // lstvwResultadoConsulta
+            // 
+            this.lstvwResultadoConsulta.HideSelection = false;
+            this.lstvwResultadoConsulta.Location = new System.Drawing.Point(31, 112);
+            this.lstvwResultadoConsulta.Name = "lstvwResultadoConsulta";
+            this.lstvwResultadoConsulta.Size = new System.Drawing.Size(443, 269);
+            this.lstvwResultadoConsulta.TabIndex = 4;
+            this.lstvwResultadoConsulta.UseCompatibleStateImageBehavior = false;
+            this.lstvwResultadoConsulta.View = System.Windows.Forms.View.Details;
+            // 
+            // comboConsultas
+            // 
+            this.comboConsultas.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboConsultas.FormattingEnabled = true;
+            this.comboConsultas.Location = new System.Drawing.Point(31, 40);
+            this.comboConsultas.Name = "comboConsultas";
+            this.comboConsultas.Size = new System.Drawing.Size(443, 24);
+            this.comboConsultas.TabIndex = 5;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -264,25 +283,6 @@
             this.btnEjecutarConsulta.Text = "Ejecutar consulta";
             this.btnEjecutarConsulta.UseVisualStyleBackColor = true;
             this.btnEjecutarConsulta.Click += new System.EventHandler(this.btnEjecutarConsulta_Click);
-            // 
-            // comboConsultas
-            // 
-            this.comboConsultas.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboConsultas.FormattingEnabled = true;
-            this.comboConsultas.Location = new System.Drawing.Point(31, 40);
-            this.comboConsultas.Name = "comboConsultas";
-            this.comboConsultas.Size = new System.Drawing.Size(443, 24);
-            this.comboConsultas.TabIndex = 5;
-            // 
-            // lstvwResultadoConsulta
-            // 
-            this.lstvwResultadoConsulta.HideSelection = false;
-            this.lstvwResultadoConsulta.Location = new System.Drawing.Point(31, 112);
-            this.lstvwResultadoConsulta.Name = "lstvwResultadoConsulta";
-            this.lstvwResultadoConsulta.Size = new System.Drawing.Size(443, 269);
-            this.lstvwResultadoConsulta.TabIndex = 4;
-            this.lstvwResultadoConsulta.UseCompatibleStateImageBehavior = false;
-            this.lstvwResultadoConsulta.View = System.Windows.Forms.View.Details;
             // 
             // Form1
             // 

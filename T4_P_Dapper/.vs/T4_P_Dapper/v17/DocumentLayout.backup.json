@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E5188D-41D7-4B06-B239-A24F729A1DDC}|T4_P_Dapper.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t4_p_dapper\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E5188D-41D7-4B06-B239-A24F729A1DDC}|T4_P_Dapper.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E5188D-41D7-4B06-B239-A24F729A1DDC}|T4_P_Dapper.csproj|C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\futbolista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E5188D-41D7-4B06-B239-A24F729A1DDC}|T4_P_Dapper.csproj|solutionrelative:futbolista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E5188D-41D7-4B06-B239-A24F729A1DDC}|T4_P_Dapper.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t4_p_dapper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E5188D-41D7-4B06-B239-A24F729A1DDC}|T4_P_Dapper.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E5188D-41D7-4B06-B239-A24F729A1DDC}|T4_P_Dapper.csproj|C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E5188D-41D7-4B06-B239-A24F729A1DDC}|T4_P_Dapper.csproj|solutionrelative:equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E5188D-41D7-4B06-B239-A24F729A1DDC}|T4_P_Dapper.csproj|C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E5188D-41D7-4B06-B239-A24F729A1DDC}|T4_P_Dapper.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E5188D-41D7-4B06-B239-A24F729A1DDC}|T4_P_Dapper.csproj|C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B6E5188D-41D7-4B06-B239-A24F729A1DDC}|T4_P_Dapper.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 173,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T15:41:43.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Futbolista.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\Futbolista.cs",
+              "RelativeDocumentMoniker": "Futbolista.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\Futbolista.cs",
+              "RelativeToolTip": "Futbolista.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:06:48.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Equipo.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\Equipo.cs",
+              "RelativeDocumentMoniker": "Equipo.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\Equipo.cs",
+              "RelativeToolTip": "Equipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:04:51.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:52:21.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:49:44.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T4_P_Dapper\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:49:36.025Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
