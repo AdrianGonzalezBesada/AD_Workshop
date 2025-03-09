@@ -17,6 +17,7 @@ namespace T4_P_Dapper
     public partial class Form1 : Form
     {
         const string _stringConnection = "Initial Catalog=Futbol; Data Source=localhost; Integrated Security=SSPI";
+        SqlConnection _conexion;
 
         public Form1()
         {
@@ -24,20 +25,27 @@ namespace T4_P_Dapper
             CargarComboEquipo();
         }
 
+        private SqlConnection IniciarConexion()
+        {
+            _conexion = new SqlConnection(_stringConnection);
+            _conexion.Open();
+            return _conexion;
+        }
+
         #region DB
         private List<Equipo> GetEquipos()
         {
-            using (SqlConnection db = new SqlConnection(_stringConnection))
+            using (IniciarConexion())
             {
-                return (List<Equipo>)db.GetAll<Equipo>();
+                return (List<Equipo>)_conexion.GetAll<Equipo>();
             }
         }
 
         private Equipo GetEquipoById(string codigoEquipo)
         {
-            using (SqlConnection db = new SqlConnection(_stringConnection))
+            using (IniciarConexion())
             {
-                return db.Get<Equipo>(codigoEquipo);
+                return _conexion.Get<Equipo>(codigoEquipo);
             }
         }
 
@@ -45,9 +53,9 @@ namespace T4_P_Dapper
         {
             string consulta = $"SELECT * FROM Futbolistas WHERE CodigoEquipo = '{codigoEquipo}'";
 
-            using (SqlConnection db = new SqlConnection(_stringConnection))
+            using (IniciarConexion())
             {
-                List<Futbolista> listaFutbolistas = (List<Futbolista>)db.Query<Futbolista>(consulta);
+                List<Futbolista> listaFutbolistas = (List<Futbolista>)_conexion.Query<Futbolista>(consulta);
 
                 return listaFutbolistas;
             }
@@ -55,41 +63,41 @@ namespace T4_P_Dapper
 
         private void InsertEquipo(Equipo equipo)
         {
-            using (SqlConnection db = new SqlConnection(_stringConnection))
+            using (IniciarConexion())
             {
-                db.Insert(equipo);
+                _conexion.Insert(equipo);
             }
         }
 
         private void InsertJugador(Futbolista futbolista)
         {
-            using (SqlConnection db = new SqlConnection(_stringConnection))
+            using (IniciarConexion())
             {
-                db.Insert(futbolista);
+                _conexion.Insert(futbolista);
             }
         }
 
         private void UpdateJugador(Futbolista futbolista)
         {
-            using (SqlConnection db = new SqlConnection(_stringConnection))
+            using (IniciarConexion())
             {
-                db.Update(futbolista);
+                _conexion.Update(futbolista);
             }
         }
 
         private void DeleteJugador(Futbolista futbolista)
         {
-            using (SqlConnection db = new SqlConnection(_stringConnection))
+            using (IniciarConexion())
             {
-                db.Delete(futbolista);
+                _conexion.Delete(futbolista);
             }
         }
 
         private void DeleteAllJugadores()
         {
-            using (SqlConnection db = new SqlConnection(_stringConnection))
+            using (IniciarConexion())
             {
-                db.DeleteAll<Futbolista>();
+                _conexion.DeleteAll<Futbolista>();
             }
         }
 
