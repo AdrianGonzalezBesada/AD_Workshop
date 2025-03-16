@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t5_p_nhibernate\\services\\irepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|solutionrelative:services\\irepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t5_p_nhibernate\\configurations\\nhibernateutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|solutionrelative:configurations\\nhibernateutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t5_p_nhibernate\\services\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|solutionrelative:services\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t5_p_nhibernate\\entities\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|solutionrelative:entities\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t5_p_nhibernate\\entities\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|solutionrelative:entities\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t5_p_nhibernate\\entities\\instituto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|solutionrelative:entities\\instituto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t5_p_nhibernate\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t5_p_nhibernate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t5_p_nhibernate\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t5_p_nhibernate\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D7159EF-3177-4DAC-B81F-C2AED0EBAD52}|T5_P_NHibernate.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 173,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IRepositoryImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Services\\IRepositoryImpl.cs",
+              "RelativeDocumentMoniker": "Services\\IRepositoryImpl.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Services\\IRepositoryImpl.cs",
+              "RelativeToolTip": "Services\\IRepositoryImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T20:48:00.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Services\\IRepository.cs",
+              "RelativeDocumentMoniker": "Services\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Services\\IRepository.cs",
+              "RelativeToolTip": "Services\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T20:39:46.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T20:36:13.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T20:34:22.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-16T20:26:42.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NHibernateUtil.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Configurations\\NHibernateUtil.cs",
+              "RelativeDocumentMoniker": "Configurations\\NHibernateUtil.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Configurations\\NHibernateUtil.cs",
+              "RelativeToolTip": "Configurations\\NHibernateUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIAwwBIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T20:08:16.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Asignatura.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Entities\\Asignatura.cs",
+              "RelativeDocumentMoniker": "Entities\\Asignatura.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Entities\\Asignatura.cs",
+              "RelativeToolTip": "Entities\\Asignatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T19:11:23.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Entities\\Estudiante.cs",
+              "RelativeDocumentMoniker": "Entities\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Entities\\Estudiante.cs",
+              "RelativeToolTip": "Entities\\Estudiante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T19:11:18.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Instituto.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Entities\\Instituto.cs",
+              "RelativeDocumentMoniker": "Entities\\Instituto.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Entities\\Instituto.cs",
+              "RelativeToolTip": "Entities\\Instituto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T19:11:10.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T5_P_NHibernate\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T16:11:11.993Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

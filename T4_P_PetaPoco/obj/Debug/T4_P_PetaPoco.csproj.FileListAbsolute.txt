@@ -1,0 +1,12 @@
+C:\Users\Adrián\Documents\AD_Workshop\T4_P_PetaPoco\obj\Debug\T4_P_PetaPoco.csproj.AssemblyReference.cache
+C:\Users\Adrián\Documents\AD_Workshop\T4_P_PetaPoco\obj\Debug\T4_P_PetaPoco.Properties.Resources.resources
+C:\Users\Adrián\Documents\AD_Workshop\T4_P_PetaPoco\obj\Debug\T4_P_PetaPoco.csproj.GenerateResource.cache
+C:\Users\Adrián\Documents\AD_Workshop\T4_P_PetaPoco\obj\Debug\T4_P_PetaPoco.csproj.CoreCompileInputs.cache
+C:\Users\Adrián\Documents\AD_Workshop\T4_P_PetaPoco\bin\Debug\T4_P_PetaPoco.exe.config
+C:\Users\Adrián\Documents\AD_Workshop\T4_P_PetaPoco\bin\Debug\T4_P_PetaPoco.exe
+C:\Users\Adrián\Documents\AD_Workshop\T4_P_PetaPoco\bin\Debug\T4_P_PetaPoco.pdb
+C:\Users\Adrián\Documents\AD_Workshop\T4_P_PetaPoco\bin\Debug\PetaPoco.dll
+C:\Users\Adrián\Documents\AD_Workshop\T4_P_PetaPoco\bin\Debug\PetaPoco.xml
+C:\Users\Adrián\Documents\AD_Workshop\T4_P_PetaPoco\obj\Debug\T4_P_Pet.06E567B4.Up2Date
+C:\Users\Adrián\Documents\AD_Workshop\T4_P_PetaPoco\obj\Debug\T4_P_PetaPoco.exe
+C:\Users\Adrián\Documents\AD_Workshop\T4_P_PetaPoco\obj\Debug\T4_P_PetaPoco.pdb
