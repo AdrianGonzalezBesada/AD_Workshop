@@ -1,13 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Dapper;
 using Dapper.Contrib.Extensions;
@@ -16,8 +9,8 @@ namespace T4_P_Dapper
 {
     public partial class Form1 : Form
     {
-        const string _stringConnection = "Initial Catalog=Futbol; Data Source=localhost; Integrated Security=SSPI";
-        SqlConnection _conexion;
+        //const string _connectionString = "Initial Catalog=Futbol; Data Source=localhost; Integrated Security=SSPI";
+        const string _connectionString = "server=localhost; database=Futbol; integrated security = true; TrustServerCertificate=true";
 
         public Form1()
         {
@@ -27,25 +20,25 @@ namespace T4_P_Dapper
 
         private SqlConnection IniciarConexion()
         {
-            _conexion = new SqlConnection(_stringConnection);
-            _conexion.Open();
-            return _conexion;
+            SqlConnection conexion = new SqlConnection(_connectionString);
+            conexion.Open();
+            return conexion;
         }
 
         #region DB
         private List<Equipo> GetEquipos()
         {
-            using (IniciarConexion())
+            using (SqlConnection conexion = IniciarConexion())
             {
-                return (List<Equipo>)_conexion.GetAll<Equipo>();
+                return (List<Equipo>)conexion.GetAll<Equipo>();
             }
         }
 
         private Equipo GetEquipoById(string codigoEquipo)
         {
-            using (IniciarConexion())
+            using (SqlConnection conexion = IniciarConexion())
             {
-                return _conexion.Get<Equipo>(codigoEquipo);
+                return conexion.Get<Equipo>(codigoEquipo);
             }
         }
 
@@ -53,9 +46,9 @@ namespace T4_P_Dapper
         {
             string consulta = $"SELECT * FROM Futbolistas WHERE CodigoEquipo = '{codigoEquipo}'";
 
-            using (IniciarConexion())
+            using (SqlConnection conexion = IniciarConexion())
             {
-                List<Futbolista> listaFutbolistas = (List<Futbolista>)_conexion.Query<Futbolista>(consulta);
+                List<Futbolista> listaFutbolistas = (List<Futbolista>)conexion.Query<Futbolista>(consulta);
 
                 return listaFutbolistas;
             }
@@ -63,41 +56,41 @@ namespace T4_P_Dapper
 
         private void InsertEquipo(Equipo equipo)
         {
-            using (IniciarConexion())
+            using (SqlConnection conexion = IniciarConexion())
             {
-                _conexion.Insert(equipo);
+                conexion.Insert(equipo);
             }
         }
 
         private void InsertJugador(Futbolista futbolista)
         {
-            using (IniciarConexion())
+            using (SqlConnection conexion = IniciarConexion())
             {
-                _conexion.Insert(futbolista);
+                conexion.Insert(futbolista);
             }
         }
 
         private void UpdateJugador(Futbolista futbolista)
         {
-            using (IniciarConexion())
+            using (SqlConnection conexion = IniciarConexion())
             {
-                _conexion.Update(futbolista);
+                conexion.Update(futbolista);
             }
         }
 
         private void DeleteJugador(Futbolista futbolista)
         {
-            using (IniciarConexion())
+            using (SqlConnection conexion = IniciarConexion())
             {
-                _conexion.Delete(futbolista);
+                conexion.Delete(futbolista);
             }
         }
 
         private void DeleteAllJugadores()
         {
-            using (IniciarConexion())
+            using (SqlConnection conexion = IniciarConexion())
             {
-                _conexion.DeleteAll<Futbolista>();
+                conexion.DeleteAll<Futbolista>();
             }
         }
 
@@ -183,10 +176,6 @@ namespace T4_P_Dapper
 
             comboFEquipoDetail.SelectedValue = jugadorSeleccionado.CodigoEquipo;
         }
-
-
-
-
 
         #endregion
     }

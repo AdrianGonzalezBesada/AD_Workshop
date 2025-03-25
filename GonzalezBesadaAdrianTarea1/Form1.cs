@@ -38,7 +38,8 @@ namespace GonzalezBesadaAdrianTarea1
             "ENTREGA FINAL.TXT"
         };
 
-        // IO
+        #region IO
+
         private void EscribirFichero(string ruta, string textoAGuardar, bool isSobreescribir)
         {
             StreamWriter ficheroAGuardar;
@@ -55,22 +56,21 @@ namespace GonzalezBesadaAdrianTarea1
             ficheroAGuardar.WriteLine(textoAGuardar);
 
             ficheroAGuardar.Close();
-
-
         }
-        private void LeerFichero(string ruta)
+
+        private string LeerFichero(string ruta)
         {
             if (File.Exists(ruta))
             {
                 using (StreamReader ficheroALeer = File.OpenText(ruta))
                 {
-                    txtFicheroALeer.Text = ficheroALeer.ReadToEnd();
-                    ficheroALeer.Close();
+                    return ficheroALeer.ReadToEnd();
                 }
             }
             else
             {
                 MessageBox.Show("El fichero no existe");
+                return null;
             }
         }
 
@@ -107,6 +107,8 @@ namespace GonzalezBesadaAdrianTarea1
             return null;
         }
 
+        #endregion
+
         private void btnGuardarEnFichero_Click(object sender, EventArgs e)
         {
             string textoAGuardar = txtFicheroAGuardar.Text;
@@ -119,27 +121,22 @@ namespace GonzalezBesadaAdrianTarea1
 
         private void btnLeerFichero_Click(object sender, EventArgs e)
         {
-            LeerFichero(_ficheroPredeterminado);
+            txtFicheroALeer.Text = LeerFichero(_ficheroPredeterminado);
         }
 
         private void btnFicheroAModificar_Click(object sender, EventArgs e)
         {
-            string rutaFichero = string.Empty;
+            OpenFileDialog ficheroSeleccionado = SeleccionarArchivo(filter: "txt files (*.txt)|*.txt");
 
-            OpenFileDialog openFile = SeleccionarArchivo("txt files (*.txt)|*.txt");
-
-            if (openFile != null)
+            if (ficheroSeleccionado != null)
             {
-                _ficheroAModificar = openFile.FileName;
-
-                var ficheroStream = openFile.OpenFile();
+                Stream ficheroStream = ficheroSeleccionado.OpenFile();
 
                 using (StreamReader fichero = new StreamReader(ficheroStream))
                 {
                     txtFicheroAModificar.Text = fichero.ReadToEnd();
                 }
             }
-
         }
 
         private void btnModificarFichero_Click(object sender, EventArgs e)
@@ -157,7 +154,6 @@ namespace GonzalezBesadaAdrianTarea1
 
                 if (directorioDestino != null)
                 {
-
                     StreamReader ficheroOriginal = new StreamReader(archivoOrigen.OpenFile());
 
                     string nombreArchivoSinExtension = Path.GetFileNameWithoutExtension(archivoOrigen.FileName);

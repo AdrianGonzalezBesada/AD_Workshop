@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t6_p_entityframeworkcore_db_frist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t6_p_entityframeworkcore_db_frist\\models\\panaderiacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|solutionrelative:models\\panaderiacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t6_p_entityframeworkcore_db_frist\\models\\panaderia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|solutionrelative:models\\panaderia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t6_p_entityframeworkcore_db_frist\\models\\panaderiaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|solutionrelative:models\\panaderiaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t6_p_entityframeworkcore_db_frist\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t6_p_entityframeworkcore_db_frist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|c:\\users\\adri\u00E1n\\documents\\ad_workshop\\t6_p_entityframeworkcore_db_frist\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF44855-04FF-4CAF-9BE3-3BF1F172259C}|T6_P_EntityFrameworkCore_DB_Frist.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 173,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:47:34.031Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:38:07.593Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Panaderia.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Models\\Panaderia.cs",
+              "RelativeDocumentMoniker": "Models\\Panaderia.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Models\\Panaderia.cs",
+              "RelativeToolTip": "Models\\Panaderia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T18:08:51.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PanaderiaContext.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Models\\PanaderiaContext.cs",
+              "RelativeDocumentMoniker": "Models\\PanaderiaContext.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Models\\PanaderiaContext.cs",
+              "RelativeToolTip": "Models\\PanaderiaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:43:29.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Models\\Producto.cs",
+              "RelativeToolTip": "Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:43:43.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PanaderiaProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Models\\PanaderiaProducto.cs",
+              "RelativeDocumentMoniker": "Models\\PanaderiaProducto.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Models\\PanaderiaProducto.cs",
+              "RelativeToolTip": "Models\\PanaderiaProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T18:11:33.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Adri\u00E1n\\Documents\\AD_Workshop\\T6_P_EntityFrameworkCore_DB_Frist\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwHYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:46:50.338Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

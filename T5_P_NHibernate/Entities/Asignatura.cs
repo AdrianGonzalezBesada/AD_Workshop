@@ -17,6 +17,6 @@ namespace T5_P_NHibernate.Entities
         public virtual string NombreAsignatura { get; set; }
         [Property(Column = "DescripcionAsignatura", Type = "string", NotNull = false)]
         public virtual string DescripcionAsignatura { get; set; }
-        public virtual List<Estudiante> ListaEstudiantes { get; set; }
+        public virtual List<Estudiante> ListaAsignaturas { get; set; }
     }
 }

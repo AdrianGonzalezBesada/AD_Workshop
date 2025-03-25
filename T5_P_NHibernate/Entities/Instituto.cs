@@ -15,8 +15,8 @@ namespace T5_P_NHibernate.Entities
     {
         [Id(Name = "IdInstituto", Column = "IdInstituto", Type = "int"), Generator(1, Class = "identity")]
         public virtual int IdInstituto { get; set; }
-        [Property(Column = "NombreAsignatura", Type = "string", NotNull = false)]
-        public virtual string NombreAsignatura { get; set; }
+        [Property(Column = "NombreInstituto", Type = "string", NotNull = false)]
+        public virtual string NombreInstituto { get; set; }
         [Property(Column = "DescripcionInstituto", Type = "string", NotNull = false)]
         public virtual string DescripcionInstituto { get; set; }
         public virtual List<Instituto> ListaInstitutos { get; set; }

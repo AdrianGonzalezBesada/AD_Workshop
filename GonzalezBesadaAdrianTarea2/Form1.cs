@@ -17,7 +17,6 @@ namespace GonzalezBesadaAdrianTarea2
     {
 
         string _connectionString = "server=localhost; database=tienda; integrated security = true; TrustServerCertificate=true";
-        SqlConnection _conexion = null;
 
         public Form1()
         {
@@ -27,9 +26,9 @@ namespace GonzalezBesadaAdrianTarea2
 
         private SqlConnection IniciarConexion()
         {
-            _conexion = new SqlConnection(_connectionString);
-            _conexion.Open();
-            return _conexion;
+            SqlConnection conexion = new SqlConnection(_connectionString);
+            conexion.Open();
+            return conexion;
         }
 
         private void btnSelectListaProductos_Click(object sender, EventArgs e)
@@ -37,11 +36,11 @@ namespace GonzalezBesadaAdrianTarea2
 
             string query = "SELECT nombre, precio, codigo FROM producto";
 
-            using (IniciarConexion())
+            using (SqlConnection conexion = IniciarConexion())
             {
-                if (_conexion.State == System.Data.ConnectionState.Open)
+                if (conexion.State == System.Data.ConnectionState.Open)
                 {
-                    SqlCommand comando = new SqlCommand(query, _conexion);
+                    SqlCommand comando = new SqlCommand(query, conexion);
 
                     using (SqlDataAdapter dataAdapter = new SqlDataAdapter(comando))
                     {
@@ -75,11 +74,11 @@ namespace GonzalezBesadaAdrianTarea2
 
             string query = "SELECT nombre, codigo FROM fabricante";
 
-            using (IniciarConexion())
+            using (SqlConnection conexion = IniciarConexion())
             {
-                if (_conexion.State == ConnectionState.Open)
+                if (conexion.State == ConnectionState.Open)
                 {
-                    SqlCommand comando = new SqlCommand(query, _conexion);
+                    SqlCommand comando = new SqlCommand(query, conexion);
 
                     using (SqlDataAdapter dataAdapter = new SqlDataAdapter(comando))
                     {
@@ -123,10 +122,10 @@ namespace GonzalezBesadaAdrianTarea2
 
             if (isSelected)
             {
-                using (IniciarConexion())
+                using (SqlConnection conexion = IniciarConexion())
                 {
 
-                    SqlCommand comando = new SqlCommand(query, _conexion);
+                    SqlCommand comando = new SqlCommand(query, conexion);
 
                     using (SqlDataAdapter dataAdapter = new SqlDataAdapter(comando))
                     {
@@ -193,11 +192,11 @@ namespace GonzalezBesadaAdrianTarea2
 
             if (!string.IsNullOrEmpty(elementoSeleccionado))
             {
-                using (IniciarConexion())
+                using (SqlConnection conexion = IniciarConexion())
                 {
                     string query = $"DELETE FROM {slectedList} WHERE codigo = {elementoSeleccionado}";
 
-                    SqlCommand comando = new SqlCommand(query, _conexion);
+                    SqlCommand comando = new SqlCommand(query, conexion);
 
                     comando.ExecuteNonQuery();
                 }
@@ -236,9 +235,9 @@ namespace GonzalezBesadaAdrianTarea2
 
             if (!string.IsNullOrEmpty(consultaSeleccionada))
             {
-                using (IniciarConexion())
+                using (SqlConnection conexion = IniciarConexion())
                 {
-                    SqlCommand comando = new SqlCommand(consultaSeleccionada, _conexion);
+                    SqlCommand comando = new SqlCommand(consultaSeleccionada, conexion);
 
                     using (SqlDataAdapter dataAdapter = new SqlDataAdapter(comando))
                     {
@@ -264,7 +263,7 @@ namespace GonzalezBesadaAdrianTarea2
 
                             foreach (string nombreColumna in nombresColumnas)
                             {
-                                if(nombreColumna != nombresColumnas[0])
+                                if (nombreColumna != nombresColumnas[0])
                                     item.SubItems.Add(row[nombreColumna].ToString());
                             }
 

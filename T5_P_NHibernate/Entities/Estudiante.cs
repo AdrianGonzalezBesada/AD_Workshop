@@ -11,12 +11,12 @@ namespace T5_P_NHibernate.Entities
     [Class( Schema = "dbo", Table = "Estudiantes", NameType = typeof(Estudiante))]
     public class Estudiante
     {
-        [Id(Name = "IdInstituto", Column = "IdInstituto", Type = "int"), Generator(1, Class = "identity")]
-        public virtual int IdInstituto { get; set; }
-        [Property(Column = "NombreAsignatura", Type = "string", NotNull = false)]
-        public virtual string NombreAsignatura { get; set; }
-        [Property(Column = "DescripcionInstituto", Type = "string", NotNull = false)]
-        public virtual string DescripcionInstituto { get; set; }
-        public virtual List<Instituto> ListaInstitutos { get; set; }
+        [Id(Name = "IdEstudiante", Column = "IdEstudiante", Type = "int"), Generator(1, Class = "identity")]
+        public virtual int IdEstudiante { get; set; }
+        [Property(Column = "NombreEstudiante", Type = "string", NotNull = false)]
+        public virtual string NombreEstudiante { get; set; }
+        [Property(Column = "DescripcionEstudiante", Type = "string", NotNull = false)]
+        public virtual string DescripcionEstudiante { get; set; }
+        public virtual List<Instituto> ListaEstudiantes { get; set; }
     }
 }
